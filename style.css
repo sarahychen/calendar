@@ -1,0 +1,67 @@
+body {
+    font-family: 'Zilla Slab', 'Georgia', serif;
+    background-color: #F0F7F4;
+}
+#calendar-table {
+    width:100%;
+    border: 1px solid black;
+}
+
+#calendar-table td, th {
+    border: 1px solid black;
+    padding: 5px;
+
+}
+
+.prev-month, .next-month {
+    color: gray; 
+}
+
+h1, h2, h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.today-date {
+    background-color: #7E8D85;
+}
+
+.has-event {
+    background-color: hsla(145, 9%, 73%,0.25);
+}
+
+p.work {
+    background-color: #E8DAB2;
+}
+p.personal {
+    background-color: #7392B7;
+}
+p.appointment {
+    background-color: #55286F;   
+}
+p.reminder {
+    background-color: #DD6E42;
+    /*E8DAB2*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

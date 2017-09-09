@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+    <html>
+        <body>
+            <div id='new-event-form'>
+                <form action='test.php' method="post">
+                    <!--<input type='hidden' name='token' value='$token'/>-->
+                    Title <input type='text' name='newevent-title'/>
+                    Date <input type='datetime-local' name='newevent-date'/>
+                    Category:
+                    <input type='radio' name='newevent-tag' value='work' checked='checked'/> Work
+                    <input type='radio' name='newevent-tag' value='personal'/> Personal
+                    <input type='radio' name='newevent-tag' value='appointment'/> Appointment
+                    <input type='radio' name='newevent-tag' value='reminder'/> Reminder
+                    <input type="submit" value="create event" id='newevent_btn'>
+                </form>
+            </div>
+        </body>
+    </html>
